@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using StackExchange.Redis;
-using statusUpdatedService.Abstractions;
+using statusUpdatedService.Services.Abstractions;
 using statusUpdatedService.Services.Common;
 using statusUpdatedService.Services.Implementations;
 
