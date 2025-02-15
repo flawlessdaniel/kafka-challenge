@@ -1,0 +1,7 @@
+GET http://localhost:5225/transactions
+Content-Type: application/json
+
+{
+    "transactionExternalId": "220317aa-341c-490a-ae54-031200b46e3b",
+    "createdAt": "2025-02-14 00:27:46.627366-05"
+}

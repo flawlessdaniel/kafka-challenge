@@ -1,0 +1,43 @@
+### Create Transaction 1
+POST http://localhost:5225/transactions/create
+Content-Type: application/json
+
+{
+    "sourceAccountId": "cdc09951-a560-47d3-b841-9727f4b86da0",
+    "targetAccountId": "78e72c06-68a1-4b32-b829-55fcc92e9e94",
+    "tranferTypeId": 1,
+    "value": 230
+}
+
+### Create Transaction 2
+POST http://localhost:5225/transactions/create
+Content-Type: application/json
+
+{
+    "sourceAccountId": "0cf1453b-3895-4048-9da3-01c2c625d940",
+    "targetAccountId": "98decb8d-0df1-4e20-9fd3-21b08af62125",
+    "tranferTypeId": 1,
+    "value": 300
+}
+
+### Create Transaction 3
+POST http://localhost:5225/transactions/create
+Content-Type: application/json
+
+{
+    "sourceAccountId": "cdc09951-a560-47d3-b841-9727f4b86da0",
+    "targetAccountId": "78e72c06-68a1-4b32-b829-55fcc92e9e94",
+    "tranferTypeId": 1,
+    "value": 2000
+}
+
+### Create Transaction 4
+POST http://localhost:5225/transactions/create
+Content-Type: application/json
+
+{
+    "sourceAccountId": "cdc09951-a560-47d3-b841-9727f4b86da0",
+    "targetAccountId": "78e72c06-68a1-4b32-b829-55fcc92e9e94",
+    "tranferTypeId": 1,
+    "value": 2500
+}
